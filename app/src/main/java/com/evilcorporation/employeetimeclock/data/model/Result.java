@@ -1,4 +1,4 @@
-package com.evilcorporation.employeetimeclock.data;
+package com.evilcorporation.employeetimeclock.data.model;
 
 /**
  * A generic class that holds a result success w/ data or an error exception.
