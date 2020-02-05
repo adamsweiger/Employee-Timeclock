@@ -1,4 +1,4 @@
-package com.evilcorporation.employeetimeclock.data;
+package com.evilcorporation.employeetimeclock.data.model;
 
 import com.evilcorporation.employeetimeclock.data.model.LoggedInUser;
 
