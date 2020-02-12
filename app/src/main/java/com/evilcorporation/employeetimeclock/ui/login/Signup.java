@@ -6,23 +6,26 @@ public class Signup {
     private int count;
     private int hours;
     private int time;
+    private int employeehours;
 
     public Signup(int givenDisplayName, int givencount, int givenhours, int giventime){
         DisplayName = givenDisplayName;
         count = givencount;
-        hours = int givenhours;
-        time = int giventime;
+        hours =  givenhours;
+        time =  giventime;
 
     }
     public int getHours() {
-        return hours + time
+        return hours + time;
     }
     public int getDisplayName() {
         return DisplayName;
     }
-    public int getCount(){
-        count time + hours;
+    public int void getCount() {
+        employeehours = time + hours;
+        count = employeehours;
         count++;
+    }
     }
 
 
