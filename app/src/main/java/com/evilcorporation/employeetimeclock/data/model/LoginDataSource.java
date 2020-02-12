@@ -23,6 +23,7 @@ public class LoginDataSource {
 
     public Object logout() {
         // TODO: revoke authentication
+        // return logout;
         Object logout = null;
         return logout;
     }
