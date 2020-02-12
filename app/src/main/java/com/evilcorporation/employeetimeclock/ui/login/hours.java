@@ -1,30 +1,9 @@
-package com.evilcorporation.employeetimeclock.ui.login;
-import android.app.Activity;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
-import android.os.Bundle;
-import androidx.annotation.Nullable;
-import androidx.annotation.StringRes;
-import androidx.appcompat.app.AppCompatActivity;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.view.KeyEvent;
-import android.view.View;
-import android.view.inputmethod.EditorInfo;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ProgressBar;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import com.evilcorporation.employeetimeclock.R;
-import com.evilcorporation.employeetimeclock.ui.login.LoginViewModel;
-import com.evilcorporation.employeetimeclock.ui.login.LoginViewModelFactory;
-
-
-public class hours  {
-    private void CalculateHoursPerformed(java.awt.event.ActionEvent evt) {
-        String[] timeIn;
-        
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDateTime;
+public class CurrentDateTimeExample1 {
+    public static void main(String[] args) {
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println(dtf.format(now));
     }
 }
