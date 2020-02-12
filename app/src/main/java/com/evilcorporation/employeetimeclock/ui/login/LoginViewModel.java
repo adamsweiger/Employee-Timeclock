@@ -5,8 +5,8 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import android.util.Patterns;
 
-import com.evilcorporation.employeetimeclock.data.LoginRepository;
-import com.evilcorporation.employeetimeclock.data.Result;
+import com.evilcorporation.employeetimeclock.data.model.LoginRepository;
+import com.evilcorporation.employeetimeclock.data.model.Result;
 import com.evilcorporation.employeetimeclock.data.model.LoggedInUser;
 import com.evilcorporation.employeetimeclock.R;
 
