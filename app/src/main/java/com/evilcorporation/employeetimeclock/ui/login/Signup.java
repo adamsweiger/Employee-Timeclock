@@ -21,14 +21,11 @@ public class Signup {
     public int getDisplayName() {
         return DisplayName;
     }
-    public int void getCount() {
+    public void getCount() {
         employeehours = time + hours;
         count = employeehours;
         count++;
     }
-    }
-
-
 
 
 }
