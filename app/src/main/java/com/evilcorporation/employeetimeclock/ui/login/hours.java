@@ -1,3 +1,5 @@
+package com.evilcorporation.employeetimeclock.ui.login;
+
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
 import com.evilcorporation.employeetimeclock.R;
