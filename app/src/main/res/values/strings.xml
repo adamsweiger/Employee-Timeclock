@@ -16,4 +16,10 @@
     <string name="hint_password">Password Hint</string>
     <string name="text_login">Login</string>
     <string name="text_not_member">Account doesnt exist!</string>
+    <string name="username">Username</string>
+    <string name="login_failed">Login Failed, Please Try Again.</string>
+    <string name="invalid_username">Invalid Username, Please Try Again.</string>
+    <string name="invalid_password">Invalid Password, Please Try Again.</string>
+    <string name="loading">Loading…</string>
+    <string name="welcome">Welcome!</string>
 </resources>

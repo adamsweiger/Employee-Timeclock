@@ -1,4 +1,4 @@
-package com.evilcorporation.employeetimeclock.ui.login;
+package com.evilcorporation.employeetimeclock.hours;
 
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
@@ -15,7 +15,7 @@ public class hours {
         this.minute = minute;
         this.second = second;
     }
-    public Time(long time) {
+    /*public Time(long time) {
         LocalDateTime now = LocalDateTime.now();
 
 
@@ -28,4 +28,6 @@ public class hours {
        // LocalDateTime now = LocalDateTime.now();
         //System.out.println(dtf.format(now));
 
+
+     */
 }

@@ -6,8 +6,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import android.support.v4.*;
-
 import android.os.Bundle;
 
 import com.evilcorporation.employeetimeclock.R;
