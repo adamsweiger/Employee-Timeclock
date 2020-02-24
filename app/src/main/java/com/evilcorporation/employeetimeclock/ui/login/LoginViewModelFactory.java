@@ -4,8 +4,8 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.annotation.NonNull;
 
-import com.evilcorporation.employeetimeclock.data.LoginDataSource;
-import com.evilcorporation.employeetimeclock.data.LoginRepository;
+import com.evilcorporation.employeetimeclock.data.model.LoginDataSource;
+import com.evilcorporation.employeetimeclock.data.model.LoginRepository;
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.
