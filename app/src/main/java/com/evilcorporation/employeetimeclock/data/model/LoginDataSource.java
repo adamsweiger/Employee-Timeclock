@@ -1,5 +1,7 @@
 package com.evilcorporation.employeetimeclock.data.model;
 
+import com.evilcorporation.employeetimeclock.data.model.LoggedInUser;
+
 import java.io.IOException;
 
 /**
@@ -21,10 +23,8 @@ public class LoginDataSource {
         }
     }
 
-    public Object logout() {
+    public void logout() {
         // TODO: revoke authentication
-        // return logout;
-        Object logout = null;
-        return logout;
     }
 }
+
