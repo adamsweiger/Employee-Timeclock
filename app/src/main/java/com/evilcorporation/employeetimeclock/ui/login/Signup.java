@@ -1,5 +1,6 @@
 package com.evilcorporation.employeetimeclock.ui.login;
 import androidx.annotation.Nullable;
+import.main.hours.hours;
 
 public class Signup {
     private int DisplayName;
@@ -26,6 +27,7 @@ public class Signup {
         count = employeehours;
         count++;
     }
+
 
 
 }
