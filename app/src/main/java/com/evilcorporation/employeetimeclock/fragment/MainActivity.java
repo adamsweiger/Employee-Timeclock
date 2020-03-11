@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             return fragmentList.size();
         }
 
-        void addFragment(Fragment fragment) {
+        void addFragment(RegisterFragment fragment) {
             fragmentList.add(fragment);
         }
     }

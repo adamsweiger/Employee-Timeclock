@@ -10,13 +10,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.evilcorporation.employeetimeclock.R;
+
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link for  Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link register.OnFragmentInteractionListener} interface
+ * {@link  for register.OnFragmentInteractionListener} interface
  * to handle interaction events.
  * Use the {@link register#newInstance} factory method to
  * create an instance of this fragment.
@@ -115,11 +115,12 @@ public class RegisterFragment extends Fragment {
 }
 */
 
-public class RegisterFragment extends Fragment {
+public class RegisterFragment  {
 
 
     public RegisterFragment() {
         // Required empty public constructor
+
     }
 
 
