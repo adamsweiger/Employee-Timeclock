@@ -115,7 +115,7 @@ public class RegisterFragment extends Fragment {
 }
 */
 
-public class RegisterFragment  {
+public class RegisterFragment extends Fragment {
 
 
     public RegisterFragment() {
@@ -124,7 +124,6 @@ public class RegisterFragment  {
     }
 
 
-    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
