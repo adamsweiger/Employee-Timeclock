@@ -1,4 +1,4 @@
-package com.evilcorporation.employeetimeclock.data.model;
+package com.evilcorporation.employeetimeclock;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
@@ -21,7 +21,7 @@ import java.util.List;
 
 import xyz.belvi.mobilevisionbarcodescanner.BarcodeRetriever;
 
-class MainActivity extends AppCompatActivity {
+class BarcodeActivity extends AppCompatActivity {
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +51,7 @@ class MainActivity extends AppCompatActivity {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this)
+                AlertDialog.Builder builder = new AlertDialog.Builder(BarcodeActivity.this)
                         .setTitle("Code Retrieved")
                         .setMessage(barcode.displayValue);
                 builder.show();
