@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Login App</string>
+    <string name="app_name">Employee Timeclock</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -18,8 +18,12 @@
     <string name="text_not_member">Account doesnt exist!</string>
     <string name="username">Username</string>
     <string name="login_failed">Login Failed, Please Try Again.</string>
-    <string name="invalid_username">Invalid Username, Please Try Again.</string>
-    <string name="invalid_password">Invalid Password, Please Try Again.</string>
+    <string name="invalid_username">Invalid Email.</string>
+    <string name="invalid_password">Passwords must be longer than 5 characters.</string>
     <string name="loading">Loading…</string>
     <string name="welcome">Welcome!</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_email">Email</string>
 </resources>
