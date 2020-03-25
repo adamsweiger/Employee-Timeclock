@@ -1,6 +1,6 @@
 package com.evilcorporation.employeetimeclock.data.model;
 
-import com.google.android.gms.vision.barcode.Barcode;
+//import com.google.android.gms.vision.barcode.Barcode;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository
@@ -8,18 +8,21 @@ import com.google.android.gms.vision.barcode.Barcode;
 
 public class LoggedInUser {
 
-    private String userId;
+   private String userId;
     private String displayName;
-    private Barcode userBarcode;
+   // private Barcode userBarcode;
 
-    public LoggedInUser(String userId, String displayName) {
+    LoggedInUser(String userId, String displayName) {
         this.userId = userId;
         this.displayName = displayName;
     }
 
-    public String getUserId() {
+   /** public String getUserId() {
+
         return userId;
+
     }
+    */
 
     public String getDisplayName() {
         return displayName;
