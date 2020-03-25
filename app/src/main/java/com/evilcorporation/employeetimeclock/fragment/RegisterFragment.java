@@ -14,9 +14,9 @@ import com.evilcorporation.employeetimeclock.R;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link for  Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link register.OnFragmentInteractionListener} interface
+ * {@link  for register.OnFragmentInteractionListener} interface
  * to handle interaction events.
  * Use the {@link register#newInstance} factory method to
  * create an instance of this fragment.
@@ -120,10 +120,10 @@ public class RegisterFragment extends Fragment {
 
     public RegisterFragment() {
         // Required empty public constructor
+
     }
 
 
-    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment

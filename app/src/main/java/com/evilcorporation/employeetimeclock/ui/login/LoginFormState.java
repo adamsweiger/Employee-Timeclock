@@ -22,6 +22,7 @@ class LoginFormState {
         this.usernameError = null;
         this.passwordError = null;
         this.isDataValid = isDataValid;
+        isDataValid = true;
     }
 
     @Nullable
