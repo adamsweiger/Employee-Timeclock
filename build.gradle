@@ -8,11 +8,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.1'
-<<<<<<< HEAD
         implementation "com.android.support:support-compat:28.0.0"
-=======
 
->>>>>>> 93ef8e40b750370f8f67d4a7b771242ac573e33e
     }
 }
 

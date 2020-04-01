@@ -25,6 +25,12 @@ public class MainActivity extends AppCompatActivity {
         //pagerAdapter.addFragment(new LoginFragment());
         pagerAdapter.addFragment(new RegisterFragment());
         viewPager.setAdapter(pagerAdapter);
+
+        /*NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
+                .setSmallIcon(R.drawable.notification_icon)
+                .setContentTitle(textTitle)
+                .setContentText(textContent)
+                .setPriority(NotificationCompat.PRIORITY_DEFAULT);*/
     }
 
     class AuthenticationPagerAdapter extends FragmentPagerAdapter {
