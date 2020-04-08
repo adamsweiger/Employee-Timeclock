@@ -34,4 +34,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'xyz.belvi.mobilevision:barcodescanner:2.0.3'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    def room_version = '2.2.5'
+    implementation "androidx.room:room-runtime:$room_version"
+    testImplementation "androidx.room:room-testing:$room_version"
 }
