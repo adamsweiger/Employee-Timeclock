@@ -2,7 +2,7 @@ package com.evilcorporation.employeetimeclock;
 
 import android.os.Build;
 
-public class NotificationTest {
+public class NotificationTest {/*
     NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
             .setSmallIcon(R.drawable.notification_icon)
             .setContentTitle(textTitle)
@@ -39,5 +39,5 @@ public class NotificationTest {
             .setAutoCancel(true);
 
     NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
-    notificationManager.notify(notificationId, builder.build());
+    notificationManager.notify(notificationId, builder.build());*/
 }
