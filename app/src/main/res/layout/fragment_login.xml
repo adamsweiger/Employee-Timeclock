@@ -7,7 +7,7 @@
 
     <TextView
         android:id="@+id/tv_title"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
         android:textSize="50sp"
@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/tv_subtitle"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tag"
         android:textSize="17sp"
@@ -71,6 +71,15 @@
         android:textColor="@android:color/white"
         android:text="@string/login"/>
 
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/register" />
+
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
@@ -80,7 +89,7 @@
 
     <TextView
         android:id="@+id/swipeRight"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/swipe_left_for_register"
         android:textSize="15sp"
