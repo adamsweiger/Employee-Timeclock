@@ -1,8 +1,13 @@
 package com.evilcorporation.employeetimeclock;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 
-public class NotificationTest {/*
+public class NotificationTest {
+    Intent emailIntent = new Intent(Intent.ACTION_SEND);
+   // emailIntent.setData(Uri.parse("mailto:"));
+    /*
     NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
             .setSmallIcon(R.drawable.notification_icon)
             .setContentTitle(textTitle)
